@@ -1,0 +1,22 @@
+{
+  "name": "markdown-blog-application-with-node-express-mongodb",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "dependencies": {
+    "express": "^4.21.2",
+    "node": "^22.12.0",
+    "node-bin-setup": "^1.1.3",
+    "request": "^2.88.2"
+  },
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
